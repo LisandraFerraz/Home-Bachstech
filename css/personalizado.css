@@ -1,0 +1,1455 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#sec1 {
+    padding-bottom: 5%;
+}
+
+#pic1{
+    position: relative;
+    height: 70vh;
+    padding-left: 6%;
+    /* margin-left: -13%; */
+}
+
+#iconeP1 {
+    left: 5%;
+    position: absolute;
+}
+
+/* #pic1 {
+    margin-left: 33.4%;
+} */
+
+#navMenu {
+    list-style: none;
+    color: black;
+}
+
+#navMenu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid black;
+    margin-right: 1%;
+    padding-right: 1%;
+}
+
+#navMenu a{
+    color: black;
+}
+
+#tracadoBack1 {
+    background-color: black;
+    border: 1px solid #000;
+    height: 300px;
+    width: 1px;
+    position: absolute;
+    top: 25%;
+    left: 2.8%;
+}
+
+#listaIcones {
+    list-style: none;
+    position: absolute;
+    top: 75%;
+    left: 2%;
+    /* line-height: 6vh; */
+}
+
+p {
+    position: relative;
+    /* margin-left: 50%;
+    margin-right: 5%;
+    top: 145%; */
+    /* padding-left: 45%; */
+    text-align: justify;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+
+#titulogalerrySec {
+    position: relative;
+    margin-left: 50%;
+    top: 120%;
+}
+
+#span1 {
+    top: 100%;
+    position: relative;
+    font-size: 17vh;
+    color: rgba(0, 0, 0, 0.2);
+    font-family:'Times New Roman', Times, serif;
+}
+
+#span2 {
+    position: absolute;
+    margin-left: 6%;
+    top: 30%;
+    font-size: 10vh;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#traco {
+    border: 1px solid #000;
+    width: 25%;
+}
+
+#sec4 {
+    margin-top: -38%;
+    position: absolute;
+    padding: 5%;
+    text-align: center;
+}
+
+.marginCard {
+    margin: 0% 1% 0% 1%;
+}
+
+#picSection4 {
+    max-height: auto;
+    max-width: 100%;
+    margin-right: 25%;
+}
+
+#span4{
+    top: 306.5%;
+    position: absolute;
+    left: 40%;
+    font-size: 14vh;
+    color: rgba(255, 255, 255, 0.2);
+    font-family:'Times New Roman', Times, serif;
+}
+
+#span5{
+    position: absolute;
+    margin-left: 41%;
+    top: 313%;
+    font-size: 8vh;
+    font-family:'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+.tracoSec4{
+    margin-left: 32%;
+    border: 1px solid #000;
+    width: 35%;
+}
+
+.text2 {
+    font-size: 15px;
+    text-align: center;
+    line-height: 20%;
+    margin-bottom: 20%;
+}
+
+.btn{
+    background-color: rgb(17, 17, 17);
+    width: 75%;
+    color: whitesmoke;
+}
+
+footer {
+    margin-top: 25%;
+}
+
+#sec5{
+    margin-top: 12%;
+}
+
+#imgSection4{
+    max-height: auto;
+    max-width: 100%;
+    height: 40vw; 
+    margin-bottom: 2%;
+}
+
+#contatoSec5 {
+    position: relative;
+    margin-left: 10%;
+}
+
+#listaIcones2{
+    list-style: none;
+    position: absolute;
+    left: 2%;
+    line-height: 6vh;
+}
+
+#tracadoBack5{
+    background-color: black;
+    border: 1px solid #000;
+    height: 300px;
+    width: 1px;
+}
+
+label {
+    font-size: 3vh;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.btCtt{
+    width: 20%;
+    margin-left: 15%;
+}
+
+.avisoInv{
+    display: none;
+    margin-bottom: -80px;
+    font-size: 2vh;
+}
+
+/* ID DA DIV BACKSOBRE */
+#backSobre {
+    position: relative;
+    background-repeat: no-repeat;           
+    max-width: 100%;
+    background: url('../img/section2.jpg');
+    background-size:cover;
+    background-position: center center;
+    height:70vh;
+}
+
+.imgContato {           
+    max-width: 100%;
+    height: 100%;
+    background-position: left left;
+}
+#textoSobre {
+    position: absolute; 
+}
+
+#tituloSobre{
+    position: relative;
+    top: -280%;
+}
+
+footer {
+    padding: 2%;
+}
+
+#espaco {
+    padding: 1%;
+}
+
+@media (min-width: 200px) {
+    #pic1{
+        position: relative;
+        height: 18vh;
+        margin-left: 9%;
+        margin-top: 15%;
+    }
+    #tracadoBack1 {
+        border: 1px solid #000;
+        height: 32px;
+        width: 1px;
+        position: absolute;
+        top: 15%;
+        left: 3.5%;
+    }
+    #listaIcones{
+        top: 21%;
+    }
+    .icones1{
+        height: 2vh;
+        line-height: 10vh;
+    }
+    
+    #iconeP1{
+        height: 6vh;
+    }
+    #galerrySec{
+        padding: 5%;
+    }
+
+
+    #textoNsPrj{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #backSobre{
+        height: 35vh;
+        background-size:auto;
+    }
+    #textoSobre{
+        margin-left: -35%;
+        margin-top: -37%;
+        padding: 40%;
+    }
+    #pSobre{
+        font-size: 8px;
+    }
+    .imgSobre{
+        margin-left: -15%;
+        min-height: 2em;
+    }
+
+    #contatoSec5 {
+        margin-left: 14%;
+        width: 37vh;
+    }
+    .imgContato {
+        min-height: 37vh;
+    }
+    label {
+        line-height: 2vh;
+        font-size: 2.5vh;
+    }
+    input{
+        min-height: 6vh;
+    }
+    input::placeholder{
+        font-size: 2vh;
+    }
+    #bttEnviar{
+        margin-top: 3%;
+        width: 13vh;
+        margin-left: 40%;
+        margin-bottom: 5vh;
+    }
+}
+
+@media (min-width: 300px) {
+    #textoNsPrj{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #backSobre{
+        height: 30vh;
+    }
+    #textoSobre{
+        margin-left: -45%;
+        margin-top: -45%;
+        padding: 50%;
+    }
+    #pSobre{
+        font-size: 10%;
+    }
+    .imgSobre{
+        margin-left: -15%;
+        min-width: 1px;
+        min-height: 1px;
+    }
+
+    #contatoSec5 {
+        margin-left: 15%;
+        width: 48vh;
+    }
+    .imgContato {
+        min-height: 53vh;
+    }
+}
+
+@media (min-width: 320px) {
+    #pic1{
+        position: relative;
+        height: 24vh;
+        margin-left: 6%;
+        margin-top: 12%;
+    }
+    #tracadoBack1 {
+        border: 1px solid #000;
+        height: 32px;
+        width: 1px;
+        position: absolute;
+        top: 18%;
+        left: 3.5%;
+    }
+    #listaIcones{
+        top: 23%;
+    }
+    .icones1{
+        height: 2vh;
+        line-height: 2vh;
+    }
+    #iconeP1{
+        height: 6vh;
+    }
+    #textoNsPrj{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #backSobre{
+        height: 45vh;
+        background-size:auto;
+    }
+    #textoSobre{
+        margin-left: -38%;
+        margin-top: -35%;
+        padding: 40%;
+    }
+    #pSobre{
+        font-size: 1.6vh;
+    }
+    .imgSobre{
+        margin-left: -15%;
+        min-width: 1px;
+        min-height: 1px;
+    }
+
+    #contatoSec5 {
+        margin-left: 15%;
+        width: 46vh;
+    }
+    .imgContato {
+        min-height: 48vh;
+    }
+    label{
+        line-height: 4.2vh;
+        font-size: 2.8vh;
+    }
+    #bttEnviar{
+        margin-left: 40%;
+        margin-bottom: 5vh;
+    }
+}
+
+@media (min-width: 370px) {
+    #pic1{
+        position: relative;
+        height: 20vh;
+        margin-left: 6%;
+        margin-top: 12%;
+    }
+    #tracadoBack1 {
+        border: 1px solid #000;
+        height: 32px;
+        width: 1px;
+        position: absolute;
+        top: 15%;
+        left: 3.5%;
+    }
+    #listaIcones{
+        top: 21%;
+    }
+    .icones1{
+        height: 2vh;
+        line-height: 10vh;
+    }
+    #iconeP1{
+        height: 6vh;
+    }
+
+    #textoNsPrj{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #backSobre{
+        height: 45vh;
+        background-size:auto;
+    }
+    #textoSobre{
+        margin-left: -38%;
+        margin-top: -35%;
+        padding: 40%;
+    }
+    #pSobre{
+        font-size: 1.6vh;
+    }
+    .imgSobre{
+        margin-left: -15%;
+        min-width: 1px;
+        min-height: 1px;
+    }
+
+    #contatoSec5 {
+        margin-left: 10%;
+        width: 50vh;
+    }
+    .imgContato {
+        min-height: 50vh;
+    }
+    label{
+        font-size: 2.5vh;
+    }
+    #bttEnviar{
+        margin-left: 40%;
+        margin-bottom: 5vh;
+    }
+}
+
+@media (min-width: 400px) {
+    #pic1{
+        position: relative;
+        height: 22vh;
+        margin-left: 15%;
+        margin-top: 12%;
+    }
+    #tracadoBack1 {
+        border: 1px solid #000;
+        height: 32px;
+        width: 1px;
+        position: absolute;
+        top: 15%;
+        left: 3.5%;
+    }
+    #listaIcones{
+        top: 21%;
+    }
+    .icones1{
+        height: 2vh;
+        line-height: 10vh;
+    }
+    
+    #iconeP1{
+        height: 6vh;
+    }
+    #textoNsPrj{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #backSobre{
+        height: 290px;
+    }
+    #textoSobre{
+        margin-left: -60%;
+        margin-top: -55%;
+        padding: 60%;
+    }
+    .imgSobre{
+        margin-left: -5%;
+    }
+    #pSobre {
+        font-size: 1.2vh;
+    }
+    
+    #contatoSec5 {
+        margin-left: 10%;
+        width: 44vh;
+    }
+    .imgContato {
+        min-height: 45vh;
+    }
+    label{
+        line-height: 4.2vh;
+        font-size: 2.5vh;
+    }
+    input::placeholder{
+        font-size: 2vh;
+    }
+    #bttEnviar{
+        margin-left: 40%;
+        margin-bottom: 5vh;
+    }
+}
+
+@media (min-width: 540px) {
+    #pic1{
+        position: relative;
+        height: 32vh;
+        margin-left: 9%;
+        margin-top: 2%;
+    }
+    #tracadoBack1 {
+        border: 1px solid #000;
+        height: 72px;
+        width: 1px;
+        position: absolute;
+        top: 15%;
+        left: 3%;
+    }
+    #listaIcones{
+        top: 25%;
+    }
+    .icones1{
+        height: 2vh;
+        line-height: 10vh;
+    }
+    
+    #iconeP1{
+        height: 6vh;
+    }
+    #textoNsPrj{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #backSobre{
+        height: 290px;
+    }
+    #textoSobre{
+        margin-left: -50%;
+        margin-top: -48%;
+        padding: 50%;
+    }
+    .imgSobre{
+        margin-left: -5%;
+    }
+    #pSobre {
+        font-size: 1.5vh;
+    }
+    #galerrySec{
+        padding: 5%;
+    }
+
+    /* .imgSobre {
+        padding: 50%;
+    } */
+    .imgContato {
+        min-height: 62vh;
+    }
+    #contatoSec5 {
+        margin-left: 18%;
+        width: 61vh;
+    }
+    label {
+        line-height: 5vh;
+        font-size: 2.5vh;
+    }
+    input{
+        min-height: 6vh;
+    }
+    input::placeholder{
+        font-size: 2vh;
+    }
+    #bttEnviar{
+        margin-top: 3%;
+        width: 15vh;
+        margin-left: 47%;
+        margin-bottom: 5vh;
+    }
+    .text1 {
+        font-size: 12px;
+        text-align: center;
+    }
+    .text2 {
+        font-size: 8px;
+        text-align: center;
+        line-height: 2%;
+        margin-bottom: 60%;
+    }
+    .btn{
+        background-color: rgb(17, 17, 17);
+        width: 100%;
+        height: 2px;
+        color: whitesmoke;
+    }
+    #tracoSec4{
+        margin-bottom: 30%;
+        margin-left: 32%;
+        border: 1px solid #000;
+        width: 35%;
+    }
+}
+
+@media (min-width: 600px) {
+    #textoNsPrj{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #backSobre {
+        height: 500px;
+    }
+    #textoSobre{
+        margin-top: 25%;
+        font-size: 2vh;
+        padding: 5px;
+        margin-left: -20%;
+    }
+    #pSobre{
+        font-size: 14px;
+    }
+
+    
+    .imgContato{
+        min-height: 80vh;
+    }
+    #contatoSec5 { 
+        margin-left: 5%;
+        line-height: 300%;
+        width: 78vh;
+    }
+    .text1 {
+        font-size: 12px;
+        text-align: center;
+    }
+    .text2 {
+        margin-top: 18%;
+        font-size: 8px;
+        text-align: center;
+        line-height: 1vh;
+        margin-bottom: 18%;
+    }
+    .btn{
+        background-color: rgb(17, 17, 17);
+        width: 80%;
+        min-height: 20px;
+        color: whitesmoke;
+    }
+    .tracoExcl{
+        margin-top: 30%;
+    }
+    #tracoSec4{
+        margin-left: 32%;
+        border: 1px solid #000;
+        width: 35%;
+    }
+}
+
+@media (min-width: 700px) {
+    #textoNsPrj{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #backSobre {
+        height: 500px;
+    }
+    #textoSobre{
+        margin-top: 25%;
+        font-size: 2vh;
+        padding: 5px;
+        margin-left: -5%;
+    }
+    #pSobre{
+        font-size: 14px;
+    }
+
+    
+    #contatoSec5 { 
+        line-height: 300%;
+        width: 190vh;
+        margin-left: 10%;
+    }
+    .imgContato{
+        min-height: 68vh;
+    }
+    label{
+        font-size: 2.8vh;
+        line-height: 75px; 
+    }
+    input{
+        min-height: 6vh;
+    }
+    input::placeholder{
+        font-size: 2.5vh;
+    }
+    #bttEnviar{
+        margin-left: 40%;
+        margin-bottom: 5vh;
+    }
+    .text1 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .text2 {
+        font-size: 12px;
+        text-align: center;
+        line-height: 25%;
+        margin-bottom: 20%;
+        margin-top: 15%;
+    }
+    .btn{
+        background-color: rgb(17, 17, 17);
+        width: 100%;
+        height: 10px;
+        color: whitesmoke;
+    }
+    #tracoSec4{
+        margin-bottom: 30%;
+        margin-left: 32%;
+        border: 1px solid #000;
+        width: 35%;
+    }
+}
+
+/* aaaaaaaqui */
+@media (min-width: 800px) {
+    .textoNsPrj{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #textoSobre{
+        margin-top: 25%;
+    }
+    #pSobre{
+        margin-left: -1%;
+    }
+    .imgSobre{
+        min-height: 2vh;
+        margin-left: -14%;
+    }
+    
+    .imgContato{
+        min-height: 60vh;
+    }
+    #contatoSec5 { 
+        line-height: 300%;
+        width: 150vh;
+    }
+}
+
+@media (min-width: 1000px) {
+    #pic1{
+        margin-top: 5vh;
+        position: relative;
+        height: 34vh;
+        margin-left: 0%;
+        /* margin-left: -13%; */
+    }
+    #tracadoBack1 {
+        border: 1px solid #000;
+        height: 190px;
+        width: 1px;
+        position: absolute;
+        top: 20%;
+        left: 2.5%;
+    }
+    #listaIcones{
+        top: 35%;
+        line-height: 45px;
+    }
+    .icones1{
+        height: 2.2vh;
+    }
+    #iconeP1{
+        height: 10vh;
+    }
+
+    #backSobre {
+        height: 500px;
+    }
+    #textoSobre{
+        margin-top: -5%;
+        font-size: 2vh;
+        padding: 50px;
+        margin-left: -10%;
+    }
+    #pSobre{
+        font-size: 18px;
+    }
+    
+    #contatoSec5 { 
+        line-height: 300%;
+        width: 125vh;
+    }
+    .imgContato{
+        min-height: 68vh;
+    }
+    label{
+        font-size: 2.8vh;
+        line-height: 75px; 
+    }
+    input{
+        min-height: 5.1vh;
+    }
+    input::placeholder{
+        font-size: 2.1vh;
+    }
+    #bttEnviar{
+        font-size: 2vh;
+        min-height: 4.5vh;
+        margin-left: 27%;
+        margin-bottom: 5vh;
+    }
+    .text1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .text2 {
+        margin-top: 18%;
+        font-size: 17px;
+        text-align: center;
+        line-height: 1vh;
+        margin-bottom: 18%;
+    }
+    .btn{
+        background-color: rgb(17, 17, 17);
+        width: 90%;
+        min-height: 40px;
+        color: whitesmoke;
+    }
+    .tracoExcl{
+        margin-top: 36%;
+    }
+    #tracoSec4{
+        margin-left: 32%;
+        border: 1px solid #000;
+        width: 35%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #pic1{
+        position: relative;
+        height: 60vh;
+        margin-left: 16%;
+        /* margin-left: -13%; */
+    }
+    #tracadoBack1 {
+        border: 1px solid #000;
+        height: 250px;
+        width: 1px;
+        position: absolute;
+        top: 20%;
+        left: 2.5%;
+    }
+    #listaIcones{
+        top: 55%;
+        line-height: 35px;
+    }
+    .icones1{
+        height: 3vh;
+    }
+    #iconeP1{
+        height: 15vh;
+    }
+
+    #pSobre{
+        margin-left: -2%;
+    }
+    .imgSobre{
+        min-height: 2vh;
+        margin-left: -14%;
+    }
+    
+    #contatoSec5 {   
+        width: 180vh;
+    }
+    .imgContato{
+        min-height: 10vh;
+    }
+    label {
+        line-height: 20%;
+        font-size: 2.5vh;
+    }
+    input{
+        min-height: 6vh;
+    }
+    input::placeholder{
+        font-size: 2vh;
+    }
+    #bttEnviar{
+        margin-top: 0%;
+        min-height: 37px;
+        width: 20vh;
+        margin-left: 26%;
+        margin-bottom: 5vh;
+    }
+    .text1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .text2 {
+        font-size: 17px;
+        text-align: center;
+        line-height: 2vh;
+        margin-bottom: 10%;
+    }
+    .btn{
+        background-color: rgb(17, 17, 17);
+        width: 90%;
+        min-height: 40px;
+        color: whitesmoke;
+    }
+    #tracoSec4{
+        margin-bottom: 15%;
+        margin-left: 32%;
+        border: 1px solid #000;
+        width: 35%;
+    }
+    .tracoExcl{
+        margin-top: -0.5%;
+    }
+}
+
+@media (min-width: 1300px) {
+    #pic1{
+        position: relative;
+        height: 70vh;
+        margin-left: 22%;
+    }
+    
+    #tracadoBack1 {
+        border: 1px solid #000;
+        height: 290px;
+        width: 1px;
+        position: absolute;
+        top: 20%;
+        left: 2.5%;
+    }
+    #listaIcones{
+        top: 65%;
+        line-height: 30px;
+    }
+    .icones1{
+        height: 3.2vh;
+    }
+    #iconeP1{
+        height: 15vh;
+    }
+
+    #pSobre{
+        margin-left: -2%;
+    }
+    .imgSobre{
+        min-height: 2vh;
+        margin-left: -14%;
+    }
+    
+    #contatoSec5 {   
+        line-height: 300%;
+        width: 210vh;
+    }
+    .imgContato{
+        min-height: 10vh;
+    }
+    label {
+        font-size: 2.5vh;
+    }
+    #bttEnviar{
+        width: 20vh;
+        margin-left: 28%;
+        margin-bottom: 5vh;
+    }
+    .text1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .text2 {
+        font-size: 17px;
+        text-align: center;
+        line-height: 2vh;
+        margin-bottom: 10%;
+    }
+    .btn{
+        background-color: rgb(17, 17, 17);
+        width: 90%;
+        min-height: 40px;
+        color: whitesmoke;
+    }
+    #tracoSec4{
+        margin-bottom: 15%;
+        margin-left: 32%;
+        border: 1px solid #000;
+        width: 35%;
+    }
+    .tracoExcl{
+        margin-top: -0.5%;
+    }
+}
+
+@media (min-width: 1400px) {
+    #pic1{
+        position: relative;
+        height: 66vh;
+        margin-left: -5%;
+        /* margin-left: -13%; */
+    }
+    
+    #tracadoBack1 {
+        border: 1px solid #000;
+        height: 290px;
+        width: 1px;
+        position: absolute;
+        top: 20%;
+        left: 2.5%;
+    }
+    #listaIcones{
+        top: 65%;
+        line-height: 30px;
+    }
+    .icones1{
+        height: 3.2vh;
+    }
+    #iconeP1{
+        height: 15vh;
+    }
+
+    #tracadoBack1 {
+        border: 1px solid #000;
+        height: 250px;
+        width: 1px;
+        position: absolute;
+        top: 20%;
+        left: 2.5%;
+    }
+    #listaIcones{
+        top: 55%;
+        line-height: 35px;
+    }
+    .icones1{
+        height: 3vh;
+    }
+    #iconeP1{
+        height: 15vh;
+    }
+
+    #textoSobre{
+        margin-top: -5%;
+    }
+    #pSobre{
+        margin-left: -15%;
+    }
+    .imgSobre{
+        min-height: 2vh;
+        margin-left: -28%;
+    }
+    
+    #contatoSec5 {   
+        line-height: 300%;
+        top: 5vh;
+        width: 180vh;
+    }
+    .imgContato{
+        min-height: 50vh;
+    }
+    label {
+        line-height: 20%;
+        font-size: 2.5vh;
+    }
+    input{
+        min-height: 6vh;
+    }
+    input::placeholder{
+        font-size: 2vh;
+    }
+    #bttEnviar{
+        margin-top: 3%;
+        min-height: 40px;
+        width: 20vh;
+        margin-left: 25%;
+        margin-bottom: 5vh;
+    }
+    .text1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .text2 {
+        font-size: 17px;
+        text-align: center;
+        line-height: 2vh;
+        margin-bottom: 10%;
+    }
+    .btn{
+        background-color: rgb(17, 17, 17);
+        width: 80%;
+        min-height: 40px;
+        color: whitesmoke;
+    }
+    #tracoSec4{
+        margin-bottom: 15%;
+        margin-left: 32%;
+        border: 1px solid #000;
+        width: 35%;
+    }
+    .tracoExcl{
+        margin-top: -0.5%;
+    }
+}
+
+@media (min-width: 1600px) {
+    #pic1{
+        position: relative;
+        height: 70vh;
+        margin-left: 12%;
+        /* margin-left: -13%; */
+    }
+    
+    #tracadoBack1 {
+        border: 1px solid #000;
+        height: 400px;
+        width: 1px;
+        position: absolute;
+        top: 20%;
+        left: 2.5%;
+    }
+    #listaIcones{
+        top: 65%;
+        line-height: 45px;
+    }
+    .icones1{
+        height: 3.2vh;
+    }
+    #iconeP1{
+        height: 15vh;
+    }
+
+    #pSobre{
+        margin-left: -40%;
+    }
+    .imgSobre{
+        min-height: 2vh;
+        margin-left: -54%;
+    }
+    
+    #contatoSec5 {  
+        line-height: 300%;
+        top: 10vh;
+        width: 160vh;
+        height: 50vh;
+    }
+    .imgContato{
+        min-height: 50vh;
+    }
+    label {
+        font-size: 2.5vh;
+    }
+    #bttEnviar{
+        width: 20vh;
+        margin-left: 25%;
+        margin-bottom: 5vh;
+    }
+    .text1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .text2 {
+        font-size: 15px;
+        text-align: center;
+        line-height: 2%;
+        margin-bottom: 60%;
+    }
+    .btn{
+        background-color: rgb(17, 17, 17);
+        width: 100%;
+        height: 2px;
+        color: whitesmoke;
+    }
+    #tracoSec4{
+        margin-bottom: 30%;
+        margin-left: 32%;
+        border: 1px solid #000;
+        width: 35%;
+    }
+    .text1 {
+        font-size: 27px;
+        text-align: center;
+    }
+    .text2 {
+        font-size: 23px;
+        text-align: center;
+        line-height: 2vh;
+        margin-bottom: 15%;
+    }
+    .btn{
+        background-color: rgb(17, 17, 17);
+        width: 100%;
+        height: 1px;
+        color: whitesmoke;
+    }
+}
+/* aaaaaaaaaqui */
+@media (min-width: 2000px) {
+    #pic1{
+        position: relative;
+        height: 60vh;
+        margin-right: auto;
+        /* margin-left: -13%; */
+    }
+    #textoSobre{
+        margin-top: -5%;
+    }
+    #pSobre{
+        margin-left: -90%;
+    }
+    .imgSobre{
+        min-height: 2vh;
+        margin-left: -104%;
+    }
+
+    #pSobre{
+        font-size: 25px;
+    }
+    
+    #contatoSec5 {  
+        line-height: 300%;
+        top: 20vh;
+        width: 180vh;
+        height: 50vh;
+    }
+    .imgContato{
+        min-height: 50vh;
+    }
+    label {
+        font-size: 2.5vh;
+    }
+    #bttEnviar{
+        width: 20vh;
+        margin-left: 25%;
+        margin-bottom: 5vh;
+    }
+    .text1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .text2 {
+        font-size: 24px;
+        text-align: center;
+        line-height: 2vh;
+        margin-bottom: 15%;
+    }
+    .btn{
+        background-color: rgb(17, 17, 17);
+        width: 80%;
+        height: 2px;
+        color: whitesmoke;
+    }
+    #tracoSec4{
+        margin-bottom: 15%;
+        margin-left: 32%;
+        border: 1px solid #000;
+        width: 35%;
+    }
+}
+
+@media (min-width: 2200px) {
+    #pic1{
+        position: relative;
+        height: 70vh;
+        margin-left: -19%;
+    }
+    #textoSobre{
+        margin-top: -5%;
+    }
+    #pSobre{
+        margin-left: -110%;
+        font-size: 28px;
+    }
+    .imgSobre{
+        min-height: 2vh;
+        margin-left: -125%;
+    }
+    #backSobre{
+        min-height: 600px;
+    }
+
+    #contatoSec5 {  
+        line-height: 300%;
+        width: 200vh;
+        height: 50vh;
+    }
+    .imgContato{
+        min-height: 50vh;
+    }
+    label {
+        font-size: 2.5vh;
+    }
+    #bttEnviar{
+        width: 20vh;
+        margin-left: 25%;
+        margin-bottom: 5vh;
+    }
+    .text1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .text2 {
+        font-size: 27px;
+        text-align: center;
+        line-height: 1vh;
+        margin-bottom: 15%;
+    }
+    .btn{
+        background-color: rgb(17, 17, 17);
+        width: 80%;
+        height: 5px;
+        color: whitesmoke;
+    }
+    #tracoSec4{
+        margin-bottom: 15%;
+        margin-left: 32%;
+        border: 1px solid #000;
+        width: 35%;
+    }
+}
+
+@media (min-width: 2500px) {
+    #pic1{
+        position: relative;
+        height: 90vh;
+        margin-left: -13%;
+        /* margin-left: -13%; */
+    }
+    
+    #tracadoBack1 {
+        border: 1px solid #000;
+        height: 400px;
+        width: 1px;
+        position: absolute;
+        top: 20%;
+        left: 2.5%;
+    }
+    #listaIcones{
+        top: 58%;
+        line-height: 60px;
+    }
+    .icones1{
+        height: 3.2vh;
+    }
+    #iconeP1{
+        height: 15vh;
+    }
+
+    #textoSobre{
+        margin-top: -5%;
+    }
+    #pSobre{
+        margin-left: -110%;
+        font-size: 28px;
+    }
+    .imgSobre{
+        min-height: 2vh;
+        margin-left: -125%;
+    }
+    #backSobre{
+        min-height: 600px;
+    }
+
+    #contatoSec5 {  
+        line-height: 300%;
+        width: 220vh;
+        height: 50vh;
+        line-height: 5vh;
+    }
+    .imgContato{
+        min-height: 2%;
+    }
+    label {
+        font-size: 2.5vh;
+    }
+    input {
+        min-height: 50px;
+    }
+    #bttEnviar{
+        width: 20vh;
+        margin-left: 25%;
+        margin-bottom: 5vh;
+    }
+    .text1 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .text2 {
+        font-size: 30px;
+        text-align: center;
+        line-height: 1vh;
+        margin-bottom: 15%;
+    }
+    .btn{
+        background-color: rgb(17, 17, 17);
+        width: 80%;
+        height: 8px;
+        color: whitesmoke;
+    }
+    #tracoSec4{
+        margin-bottom: 15%;
+        margin-left: 32%;
+        border: 1px solid #000;
+        width: 35%;
+    }
+}
